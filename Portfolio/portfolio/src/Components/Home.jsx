@@ -21,7 +21,7 @@ export const Home = () => {
   const { theme } = useContext(ThemeContext);
   const downloadResume = () => {
     const resumeLink =
-      "https://drive.google.com/file/d/1Jro140NnUpskgH_BB5MD1bezseLOszs_/view?usp=sharing";
+      "https://drive.google.com/file/d/1bHZUHKlaP5uOY3TlNekAgFYZ1CHIvS18/view?usp=sharing";
     window.open(resumeLink, "_blank");
   };
 
@@ -115,7 +115,7 @@ export const Home = () => {
         >
           <ChakraLink
             as={RouterLink}
-            to="https://drive.google.com/uc?export=download&id=14XxFxDJlsIPQgYlB5G5NN4YsEnwyeNiJ"
+            to="https://drive.google.com/uc?export=download&id=1bHZUHKlaP5uOY3TlNekAgFYZ1CHIvS18"
             textDecoration={"none"}
           >
             Resume
