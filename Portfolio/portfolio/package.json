@@ -1,5 +1,5 @@
 {
-  "name": "PavanBhaskarThota.github.io",
+  "name": "RameshKuruba.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
-    "date-fns": "^4.1.0",
+    "date-fns": "^2.30.0",
     "framer-motion": "^10.16.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

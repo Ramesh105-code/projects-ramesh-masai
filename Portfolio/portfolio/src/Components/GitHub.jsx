@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Box, Flex, Text, Image } from "@chakra-ui/react";
-import GitHubCalendar from "react-github-calendar";
+// import GitHubCalendar from "react-github-calendar";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -95,7 +95,7 @@ export const GitHub = () => {
           data-aos-anchor-placement="center-bottom"
           data-aos-duration="700"
         >
-          <GitHubCalendar
+          {/* <GitHubCalendar
             style={calendarStyle}
             username="Ramesh105-code"
             blockSize={9}
@@ -105,7 +105,7 @@ export const GitHub = () => {
               totalCount: "{{count}} contributions in the last half year",
             }}
             className="react-activity-calendar"
-          />
+          /> */}
         </Box>
         <Box
           maxW={"300px"}
