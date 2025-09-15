@@ -46,7 +46,7 @@ export const Navbar = () => {
 
   const downloadResume = () => {
     const resumeLink =
-      "https://drive.google.com/file/d/1ZpVuPxtuAVt7mv28CPm_7dcmWy3InRcD/view?usp=sharing";
+      "https://drive.google.com/file/d/1kk8TVT0rt7pwk54jzjXsu5Ol2t1Qgx8k/view?usp=sharing";
 
     window.open(resumeLink, "_blank");
   };
@@ -229,7 +229,7 @@ export const Navbar = () => {
                 >
                   <ChakraLink
                     as={RouterLink}
-                    to="https://drive.google.com/uc?export=download&id=1ZpVuPxtuAVt7mv28CPm_7dcmWy3InRcD"
+                    to="https://drive.google.com/uc?export=download&id=1kk8TVT0rt7pwk54jzjXsu5Ol2t1Qgx8k"
                   >
                     Resume
                   </ChakraLink>
@@ -331,7 +331,7 @@ export const Navbar = () => {
               as={RouterLink}
               id="resume-button-1"
               className="nav-link resume"
-              to="https://drive.google.com/uc?export=download&id=1ZpVuPxtuAVt7mv28CPm_7dcmWy3InRcD"
+              to="https://drive.google.com/uc?export=download&id=1kk8TVT0rt7pwk54jzjXsu5Ol2t1Qgx8k"
             >
               Resume
             </ChakraLink>

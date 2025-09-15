@@ -40,7 +40,7 @@ const project = [
     image:funiro,
     description: "Created a Frontend project",
     techStack: ["HTML", "CSS", "React", "Figma"],
-    gitLink: "https://github.com/Ramesh105-code/projects-ramesh-masai/tree/main/funiro-ram",
+    gitLink: "https://github.com/Ramesh105-code/Funiro",
     projectLink: "https://funiro-flax.vercel.app/",
   },
 
