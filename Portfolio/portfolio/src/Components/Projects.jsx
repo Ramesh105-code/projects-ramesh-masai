@@ -32,7 +32,7 @@ const project = [
     image:Booking,
     description: "Created a Solo Frontend project",
     techStack: ["HTML", "CSS", "JS", "Figma"],
-    gitLink: "https://github.com/Ramesh105-code/B43_WEB_008_Web-Warriors",
+    gitLink: "https://github.com/Ramesh105-code/quickbook.com",
     projectLink: "https://67e0643a785944a600cbf413--frolicking-medovik-43697a.netlify.app/",
   },
     {
