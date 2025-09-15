@@ -17,8 +17,8 @@ import Memento from "../Images/Projects/Memento.png";
 import tripwiz from "../Images/Projects/Tripwiz.png";
 import freshBasket from "../Images/Projects/FreshBasket.png";
 import Aspireo from "../Images/Projects/Aspireo_Home.1.png";
-import Booking from "../Images/Projects/Booking.com.png";
-import funiro from "../Images/Projects/Funiro.png";
+import Booking from "../Images/Projects/quickbooklatest.png";
+import funiro from "../Images/Projects/Funirolatest.png";
 import manakin from "../Images/Projects/Mankin.png";
 
 import Aos from "aos";
@@ -40,8 +40,8 @@ const project = [
     image:funiro,
     description: "Created a Frontend project",
     techStack: ["HTML", "CSS", "React", "Figma"],
-    gitLink: "https://github.com/Ramesh105-code/projects-ramesh-masai/tree/main/furniro-ram",
-    projectLink: "https://furniro-eight-hazel.vercel.app/",
+    gitLink: "https://github.com/Ramesh105-code/projects-ramesh-masai/tree/main/funiro-ram",
+    projectLink: "https://funiro-flax.vercel.app/",
   },
 
   // {
@@ -98,6 +98,7 @@ export const Projects = () => {
   const projectsPerRow = useBreakpointValue({ base: 1, lg: 2 });
   const { theme } = useContext(ThemeContext);
 
+  
   useEffect(() => {
     Aos.init(); // Initialize AOS
   }, []);
@@ -146,6 +147,9 @@ const ProjectCard = ({
   gitLink,
   projectLink,
 }) => {
+  const handlegitclick=(gitlink)=>{
+    window.open(gitlink)
+  }
   return (
     <VStack
       align="left"
@@ -193,13 +197,15 @@ const ProjectCard = ({
           backgroundColor={"#0a194e"}
           color={"#fff"}
           borderRadius={"30px"}
+          onClick={ ()=>{handlegitclick(gitLink)}}
+
           _hover={{
             backgroundColor: "#ffff",
             color: "#0a194e",
             border: "1px solid #0a194e",
           }}
         >
-          <Link href={gitLink} target="blank" className="project-github-link">
+          <Link target="blank" className="project-github-link" textDecoration="none">
             Git
           </Link>
         </Button>
@@ -213,9 +219,10 @@ const ProjectCard = ({
             color: "#324178",
             border: "1px solid #324178",
           }}
+           onClick={ ()=>{handlegitclick(projectLink)}}
         >
           <Link
-            href={projectLink}
+          textDecoration="none"
             target="blank"
             className="project-deployed-link"
           >
